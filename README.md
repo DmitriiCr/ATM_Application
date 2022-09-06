@@ -1,4 +1,7 @@
 # ATM
+![image](https://user-images.githubusercontent.com/97243628/188656849-49ecfbbe-5e49-4cb4-ba82-963d52478973.png)
+![image](https://user-images.githubusercontent.com/97243628/188657074-2ca18dcd-d0c8-4f84-a0c1-d4601b85cea0.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
 
