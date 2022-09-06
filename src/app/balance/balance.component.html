@@ -1,0 +1,55 @@
+<!-- HTML !-->
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+  .main-nav {
+    display: flex;
+    background: rgba(40, 57, 101, 0.9);
+    color: white;
+    border-radius: 3px;
+    padding: 3em;
+    font-family: sans-serif;
+    gap: 10px;
+  }
+  .main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+  }
+  .main-nav li {
+    margin-right: 1em;
+  }
+  .main-nav > form {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .main-nav input {
+    flex: 1;
+  }
+  .main-nav button {
+    background: white;
+    border: 0;
+    border-radius: 1em;
+    color: rgba(40, 57, 101, 0.9);
+    padding: 0 1em;
+    margin-left: 0.3em;
+  }
+  @media screen and (max-width: 50px) {
+    .main-nav {
+      flex-direction: column;
+    }
+    .main-nav ul {
+      flex-direction: row; /* Change this to 'column' to stack the links */
+      margin-bottom: 1em;
+    }
+  }
+</style>
+
+<nav class="main-nav">
+  <h2>Your balance is {{ balance }}$</h2>
+
+  <button routerLink="/home">Back to menu</button>
+</nav>

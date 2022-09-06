@@ -1,0 +1,25 @@
+<div *ngIf="hide">
+  <h1 align="center">Simple ATM User Interface</h1>
+  <div class="container">
+    <h1 align="center">Hi , welcome to XYZ Bank ATM</h1>
+    <p align="center">What would you like to do ?</p>
+
+    <div class="container2">
+      <button
+        class="button-63 children"
+        role="button"
+        (click)="onClick()"
+        routerLink="/balance"
+      >
+        Balance
+      </button>
+
+      <button class="button-63 children" role="button" routerLink="/deposit">
+        Deposit
+      </button>
+      <button class="button-63 children" role="button" routerLink="/withdraw">
+        Withdraw
+      </button>
+    </div>
+  </div>
+</div>

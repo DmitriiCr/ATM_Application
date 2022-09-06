@@ -1,0 +1,22 @@
+<div class="login-wrap">
+  <div class="login-form">
+    <div class="sign-in-htm">
+      <div class="group">
+        <label align="center" for="user" class="label"
+          >Enter the amount of money to depose</label
+        >,<br />
+        <input id="user" type="text" class="input" [(ngModel)]="balance" />
+      </div>
+
+      <div class="group">
+        <button class="button" (click)="OnSubmitAmount(balance)">
+          Submit Amount
+        </button>
+        <br />
+        <br />
+        <button class="button" (click)="ReturnMenu()">Back to menu</button>
+      </div>
+      <div class="hr"></div>
+    </div>
+  </div>
+</div>
